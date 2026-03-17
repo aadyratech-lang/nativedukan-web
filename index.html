@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native Dukan - Your Local Market, Now at Your Fingertips</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        teal: '#1c8d7b',     /* From your logo */
+                        mustard: '#da9d36',  /* From your logo */
+                        dark: '#1f2937',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Smooth scrolling for anchor links */
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="Native_dukan_logo.png" alt="Native Dukan Logo" class="h-20 w-auto object-contain rounded-md">
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#how-it-works" class="text-gray-600 hover:text-teal font-medium transition">How it Works</a>
+                <a href="#features" class="text-gray-600 hover:text-teal font-medium transition">For Partners</a>
+            </nav>
+            <div>
+                <a href="#download" class="bg-teal text-white px-6 py-2.5 rounded-full font-semibold hover:bg-[#156e60] transition shadow-md">Get the App</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative pt-20 pb-24 lg:pt-32 lg:pb-40 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center lg:text-left flex flex-col lg:flex-row items-center">
+            
+            <div class="lg:w-1/2 lg:pr-12">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Shop Local. <br>
+                    <span class="text-teal">Smarter & Faster.</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-10 max-w-2xl mx-auto lg:mx-0">
+                    Why search store to store? Post what you need, get competitive offers from local shops nearby, and choose the best deal. 
+                </p>
+                
+                <div id="download" class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                    <a href="#" class="flex items-center justify-center bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition w-64 sm:w-auto">
+                        <i class="fab fa-apple text-2xl mr-3"></i>
+                        <div class="text-left">
+                            <div class="text-[10px] uppercase tracking-wider leading-none mb-1">Download on the</div>
+                            <div class="text-lg font-semibold leading-none">App Store</div>
+                        </div>
+                    </a>
+                    <a href="#" class="flex items-center justify-center bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition w-64 sm:w-auto">
+                        <i class="fab fa-google-play text-xl mr-3"></i>
+                        <div class="text-left">
+                            <div class="text-[10px] uppercase tracking-wider leading-none mb-1">GET IT ON</div>
+                            <div class="text-lg font-semibold leading-none">Google Play</div>
+                        </div>
+                    </a>
+                </div>
+                <p class="mt-4 text-sm text-gray-500 font-medium">Available on Android and iOS</p>
+            </div>
+
+            <div class="lg:w-1/2 mt-16 lg:mt-0 relative">
+                <div class="absolute inset-0 bg-mustard opacity-20 blur-3xl rounded-full w-96 h-96 mx-auto"></div>
+                <div class="relative mx-auto w-64 h-[500px] bg-white border-8 border-gray-900 rounded-[3rem] shadow-2xl overflow-hidden flex flex-col">
+                    <div class="bg-teal h-20 w-full flex items-end justify-center pb-4 text-white font-bold">New Request</div>
+                    <div class="p-4 flex-1 bg-gray-50">
+                        <div class="w-full h-32 bg-gray-200 rounded-lg mb-4 flex items-center justify-center text-gray-400"><i class="fas fa-image text-3xl"></i></div>
+                        <div class="w-3/4 h-4 bg-gray-200 rounded mb-2"></div>
+                        <div class="w-1/2 h-4 bg-gray-200 rounded mb-6"></div>
+                        <div class="w-full h-12 bg-mustard rounded-lg mt-auto text-white flex items-center justify-center font-bold">Submit Request</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900">How Native Dukan Works</h2>
+                <p class="mt-4 text-gray-600">The easiest way to get exactly what you are looking for.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10 text-center">
+                <div class="p-6 rounded-2xl bg-gray-50 hover:shadow-lg transition border border-gray-100">
+                    <div class="w-16 h-16 bg-teal/10 text-teal rounded-full flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fas fa-list-check"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">1. Post a Request</h3>
+                    <p class="text-gray-600 text-sm">Upload a photo of your list or type in the products you need. Select your category and hit submit.</p>
+                </div>
+                
+                <div class="p-6 rounded-2xl bg-gray-50 hover:shadow-lg transition border border-gray-100">
+                    <div class="w-16 h-16 bg-mustard/10 text-mustard rounded-full flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">2. Get Local Offers</h3>
+                    <p class="text-gray-600 text-sm">Nearby partner stores review your request and send back offers with pricing and availability.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-gray-50 hover:shadow-lg transition border border-gray-100">
+                    <div class="w-16 h-16 bg-teal/10 text-teal rounded-full flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fas fa-truck-fast"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">3. Choose & Receive</h3>
+                    <p class="text-gray-600 text-sm">Accept the best offer. Choose to pick it up directly from the store or have it delivered to your door.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-teal text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Are you a Shop Owner?</h2>
+                <p class="text-teal-50 text-lg mb-8">
+                    Grow your business with the <strong class="text-mustard">Native Dukan Partner</strong> app. Receive direct requests from local customers, send customized offers, and clear your inventory faster without paying massive commissions.
+                </p>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-center"><i class="fas fa-check-circle text-mustard mr-3"></i> Real-time customer requests</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-mustard mr-3"></i> Suggest alternate products</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-mustard mr-3"></i> Manage deliveries and store pickups</li>
+                </ul>
+                <a href="#download" class="inline-block bg-mustard text-white px-8 py-3 rounded-full font-bold hover:bg-[#c48d2e] transition shadow-lg">Download Partner App</a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <i class="fas fa-shop text-[150px] text-teal-700/50"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            
+            <div>
+                <div class="flex items-center justify-center md:justify-start gap-2 mb-4">
+                    <img src="Native_dukan_logo.png" alt="Native Dukan" class="h-20 bg-white p-1 rounded">
+                    <span class="text-xl font-bold text-white">Native Dukan</span>
+                </div>
+                <p class="text-sm text-gray-400">Connecting you to the best local shops instantly.</p>
+            </div>
+
+            <div class="flex flex-col space-y-2">
+                <h4 class="text-white font-semibold mb-2">Legal</h4>
+                <a href="#" class="hover:text-mustard transition text-sm">Privacy Policy</a>
+                <a href="#" class="hover:text-mustard transition text-sm">Terms & Conditions</a>
+            </div>
+
+            <div class="flex flex-col space-y-2">
+                <h4 class="text-white font-semibold mb-2">Support</h4>
+                <a href="mailto:support@nativedukan.in" class="hover:text-mustard transition text-sm">support@nativedukan.in</a>
+                <a href="#" class="hover:text-mustard transition text-sm">Help Center</a>
+            </div>
+        </div>
+        
+        <div class="mt-12 pt-8 border-t border-gray-700 text-center text-sm text-gray-500">
+            &copy; <script>document.write(new Date().getFullYear())</script> Native Dukan. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
