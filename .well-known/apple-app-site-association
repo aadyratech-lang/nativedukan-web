@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [ "932SG7MKUP.com.aadyralabs.nativedukanpartner" ],
+        "components": [
+          {
+            "/": "/offer/*",
+            "comment": "Matches any URL starting with /offer/"
+          }
+        ]
+      }
+    ]
+  }
+}
