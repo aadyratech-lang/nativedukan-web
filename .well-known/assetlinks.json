@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.aadyralabs.nativedukanpartner",
+      "sha256_cert_fingerprints": ["84:FB:57:DD:BC:60:75:85:8A:4F:92:95:29:D9:9E:FA:D4:18:3A:54:CE:7C:3F:5B:A8:24:7A:2D:7C:8D:45:F2"]
+    }
+  }
+]
