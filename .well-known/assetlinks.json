@@ -4,7 +4,9 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.aadyralabs.nativedukanpartner",
-      "sha256_cert_fingerprints": ["6E:B6:EC:42:BA:FD:A4:23:37:42:F4:FF:A4:4C:16:22:42:84:A2:20:C5:43:40:7B:B6:1F:6E:0E:D9:18:D7:55"]
+      "sha256_cert_fingerprints": [
+        "84:FB:57:DD:BC:60:75:85:8A:4F:92:95:29:D9:9E:FA:D4:18:3A:54:CE:7C:3F:5B:A8:24:7A:2D:7C:8D:45:F2",
+        "6E:B6:EC:42:BA:FD:A4:23:37:42:F4:FF:A4:4C:16:22:42:84:A2:20:C5:43:40:7B:B6:1F:6E:0E:D9:18:D7:55"]
     }
   }
 ]
